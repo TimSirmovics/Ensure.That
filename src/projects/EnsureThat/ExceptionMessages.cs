@@ -35,7 +35,7 @@ namespace EnsureThat
         public static string Strings_IsNotNullOrEmpty_Failed { get; } = "The string can't be null or empty.";
         public static string Strings_IsNotEmptyOrWhiteSpace_Failed { get; } = "The string can't be empty or consist of only whitespace characters.";
         public static string Strings_HasLengthBetween_Failed_ToShort { get; } = "The string is not long enough. Must be between '{0}' and '{1}' but was '{2}' characters long.";
-        public static string Strings_HasLengthBetween_Failed_ToLong { get; } = "The string is too long. Must be between '{0}' and  '{1}'. Must be between '{0}' and '{1}' but was '{2}' characters long.";
+        public static string Strings_HasLengthBetween_Failed_ToLong { get; } = "The string is too long. Must be between '{0}' and '{1}' but was '{2}' characters long.";
         public static string Strings_Matches_Failed { get; } = "Value '{0}' does not match '{1}'";
         public static string Strings_IsNotEmpty_Failed { get; } = "Empty String is not allowed.";
         public static string Strings_IsGuid_Failed { get; } = "Value '{0}' is not a valid GUID.";
